@@ -1,5 +1,5 @@
 body {
- background-image: url(dark_wood.png)
+ background-image: url(dark_wood.png); 
 }
 
 p {
@@ -18,7 +18,6 @@ h3 {
 ul {
     list-style-type: none;
     padding-left: 0px; 
-
 }
 
 #Header {
@@ -28,7 +27,6 @@ ul {
     margin-right: auto;
     margin-bottom: 10px;
     border: solid 8px black;
-
 }
 
 #Header h1{
@@ -36,7 +34,6 @@ ul {
     font-family: "Passion One";
      color: #FFBC00; 
      font-weight: bold;
-
 }
 
 #LeftNav {
@@ -48,21 +45,17 @@ ul {
     margin-right: auto;
     margin-bottom: 10px;
     border: solid 8px black;
-
 }
 
 #LeftNav img{
-
 }
 
 #LeftNav ul{
     list-style-type: none;
     padding-left: 0px; 
-
 }
 
 #LeftNav h3{
-
 
 }
 
@@ -85,18 +78,21 @@ ul {
 #Footer ul{
     list-style-type: none;
     padding-left: 0px; 
-
 }
 
 
 
 div {
-    background-color: #8E41D5;
-
+    background-color: #8E41D5
 }
 
 a {
     color: white;
     font-weight: bold;
     font-size: 24px;
+}
+
+img {
+    border-radius: 10px; 
+    border-style: dotted;
 }
